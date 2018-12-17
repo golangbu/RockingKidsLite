@@ -66,6 +66,7 @@ public class ScreenController {
 			if (openedScreens.size() == 0) {
 				return true;
 			}
+			
 			Screen screen = openedScreens.get(openedScreens.size() - 1);
 			openedScreens.remove(openedScreens.size() - 1);
 			openScreen(screen);
